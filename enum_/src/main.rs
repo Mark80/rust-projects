@@ -1,3 +1,7 @@
+mod functions;
+
+use functions::list::print_hello;
+
 #[derive(Debug)]
 enum IPType {
     IP4(String),
@@ -26,6 +30,11 @@ fn main() {
         Some(5) => println!("five"),
         _=> println!("hola"),
     }
+
+    print_hello();
+    functions::print_ciao();
+    crate::functions::print_ciao();
+
 }
 
 fn route(ip: IPType) {
