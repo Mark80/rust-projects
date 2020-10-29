@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 struct Point {
     x: i32,
     y: i32,
@@ -58,4 +60,65 @@ fn main() {
         "Point now has coordinates: ({}, {}, {})",
         new_borrowed_point.x, new_borrowed_point.y, new_borrowed_point.z
     );
+
+    let mut request = String::new();
+    let mut tmp = String::new();
+    let mut params = HashMap::new();
+
+    params.insert(&tmp, &request);
+
+    let five = Box::new(5);
+
+    let reference_1 = &five;
+    let reference_2 = reference_1;
+
+    println!("1 {}", reference_1);
+    println!("2 {}", reference_2);
+
+    let mut s = String::from("hello");
+
+    let len = s.len();
+
+    let slice = &s[3..len];
+    let slice2 = &s[3..];
+
+    s.clear();
+
+    //println!("{}", slice);
+}
+
+fn compose<A, B, C, F, G>(f: F, g: G) -> impl Fn(A) -> C
+where
+    F: Fn(A) -> B,
+    G: Fn(B) -> C,
+{
+    move |x| g(f(x))
+}
+
+struct ThingOne {
+    value: u32,
+}
+
+// Assume I can't change this signature to simply own thing_ref.  Maybe
+// it's from third-party code.
+struct ThingTwo {
+    thing_ref: ThingOne,
+}
+
+fn test() -> ThingTwo {
+    let thing1 = ThingOne { value: 1 };
+
+    ThingTwo { thing_ref: thing1 }
+}
+
+fn first_word(s: &String) -> &str {
+    let bytes = s.as_bytes();
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[0..i];
+        }
+    }
+
+    &s[..]
 }

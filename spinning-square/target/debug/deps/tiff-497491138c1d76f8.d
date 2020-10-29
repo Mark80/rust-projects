@@ -1,0 +1,14 @@
+/Users/mtosini/projects/spinning-square/target/debug/deps/tiff-497491138c1d76f8.rmeta: /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/lib.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/bytecast.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/mod.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/ifd.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/stream.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/mod.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/colortype.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/writer.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/error.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/tags.rs
+
+/Users/mtosini/projects/spinning-square/target/debug/deps/tiff-497491138c1d76f8.d: /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/lib.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/bytecast.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/mod.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/ifd.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/stream.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/mod.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/colortype.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/writer.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/error.rs /Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/tags.rs
+
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/lib.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/bytecast.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/mod.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/ifd.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/decoder/stream.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/mod.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/colortype.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/encoder/writer.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/error.rs:
+/Users/mtosini/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.0/src/tags.rs:
