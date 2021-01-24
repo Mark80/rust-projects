@@ -40,7 +40,6 @@ async fn main() -> Result<(), TokioError> {
 
     Ok(())
 }
-
 // impl<'a> FromSql<'a> for u64 {
 //     fn from_sql(ty: &Type, raw: &'a [u8]) -> Result<Self, Box<dyn Error + Sync + Send>> {
 //         unimplemented!()
