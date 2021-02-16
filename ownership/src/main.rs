@@ -6,7 +6,7 @@ use std::ops::Add;
   oggetto
   l' ownership è legato allo scope della variabile, questo significa che
   all'interno dello scope dove la variabile è definita posso usarla,
-  nel caso la ceda ad una altro scopo se proverò a richiamarla dopo nello scope
+  nel caso la ceda ad una altro scope se proverò a richiamarla dopo nello scope
   originale mi verrà ritornato un errore
 
   esempio:
@@ -111,6 +111,19 @@ fn main() {
     let value = longest_sequence(array);
 
     println!("{}", value);
+
+    let v = "ciccio";
+
+    first_(v);
+}
+
+fn first_(s : &str) {
+    println!("{}",s);
+    second(s);
+}
+
+fn second(s : &str) {
+   println!("{}",s);
 }
 
 fn longest_sequence(arr: Vec<i32>) -> i32 {

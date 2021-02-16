@@ -36,7 +36,7 @@ fn main() {
     borrow_i32(&boxed_i32);
     borrow_i32(&stacked_i32);
     borrow_i32_2(stacked_i32);
-    borrow_i32_2(stacked_i32);
+    //borrow_i32_2(stacked_i32);
 
     {
         // Take a reference to the data contained inside the box

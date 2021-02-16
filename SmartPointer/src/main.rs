@@ -1,6 +1,15 @@
 use std::ops::Deref;
-use crate::List::{Cons, Nil};
 use std::rc::Rc;
+
+use crate::List::{Cons, Nil};
+
+struct Misc {
+    _1: u64,
+    _2: u64,
+    _3: u64,
+    _4: u64,
+    _5: u64,
+}
 
 struct MyBox<T>(T);
 
@@ -79,36 +88,34 @@ fn main() {
     // impose anything more restrictive.
     let print = || println!("`color`: {}", color);
 
-    println!("{}",color);
-    println!("{}",color);
+    println!("{}", color);
+    println!("{}", color);
 
     let double = |x| 2 * x;
     let rr = apply(double);
     let rr2 = apply_2(double);
-    println!("{}",rr);
-    println!("{}",rr2);
-
+    println!("{}", rr);
+    println!("{}", rr2);
 }
 
-fn answer() -> & 'static i32 {
+fn answer() -> &'static i32 {
     let x = 6;
     &x
 }
 
-fn  apply<F>(f : F) -> i32 where
-    F : Fn(i32) -> i32
+fn apply<F>(f: F) -> i32 where
+    F: Fn(i32) -> i32
 {
     f(5)
 }
 
-fn apply_2<F : Fn(i32) -> i32 > (f:F) -> i32 {
+fn apply_2<F: Fn(i32) -> i32>(f: F) -> i32 {
     f(7)
 }
 
 fn apply_to_3<F>(f: F) -> i32 where
 // The closure takes an `i32` and returns an `i32`.
     F: Fn(i32) -> i32 {
-
     f(3)
 }
 
@@ -118,6 +125,6 @@ fn hello(name: &str) {
 }
 
 enum List {
-    Cons(i32,Rc<List>),
-    Nil
+    Cons(i32, Rc<List>),
+    Nil,
 }
